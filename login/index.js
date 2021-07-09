@@ -9,7 +9,7 @@ const login = async () => {
     let res = null;
     
     try {
-        await fetch('api/login.php', {
+        await fetch('/api/login.php', {
             method: 'POST',
             body: JSON.stringify(req)
         })
