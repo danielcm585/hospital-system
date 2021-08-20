@@ -25,7 +25,8 @@ const apply = async (doctorID) => {
     }
     catch {}
     
-    // navigate to dashboard
+    // navigate to dashboard\
+    console.log("Test");
     location.href = "/dashboard";
 }
 
